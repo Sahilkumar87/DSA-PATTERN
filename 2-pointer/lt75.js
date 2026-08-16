@@ -2,6 +2,15 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
+
+
+     const swap = (nums, i, j) => {
+        let temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+
 var sortColors = function(nums) {
     let low = 0;
     let high = nums.length-1;
@@ -25,10 +34,5 @@ var sortColors = function(nums) {
     }
 
 
-     const swap = (nums, i, j) => {
-        let temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
     
 };
