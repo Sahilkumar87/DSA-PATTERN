@@ -19,3 +19,20 @@ var subarraySum = function(nums, k) {
     return res;
     
 };
+
+
+
+/*
+javed = 70;
+himanshu = 70;
+vijay se lena h = 40;
+mzraj = 283;
+
+
+
+
+
+
+
+
+ */
