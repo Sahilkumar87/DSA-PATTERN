@@ -22,6 +22,8 @@ var sortColors = function(nums) {
             low++;
             mid++;
 
+            
+
         }
         else if(nums[mid] == 2){
             swap(nums, mid, high);
