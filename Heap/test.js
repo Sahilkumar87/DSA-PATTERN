@@ -167,3 +167,9 @@ maxHeap.push(1);
 console.log(maxHeap.peek()); // 8 (maximum)
 console.log(maxHeap.pop());  // 8
 console.log(maxHeap.pop());  // 5
+
+
+
+
+
+
