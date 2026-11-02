@@ -10,6 +10,9 @@ const items = [
   [1, "b"]
 ];
 
+
+
+
 items.sort((a, b) => {
   if (a[0] !== b[0]) return a[0] - b[0];
   return a[1].localeCompare(b[1]);
