@@ -21,3 +21,5 @@ console.log(countCommas(1000));         // Output: 1
 console.log(countCommas(999999));       // Output: 1
 console.log(countCommas(1000000));      // Output: 2
 console.log(countCommas(-123456789));   // Output: 2
+
+
