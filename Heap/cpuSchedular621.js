@@ -73,7 +73,7 @@ var leastInterval = function(tasks, n) {
             push(cooldown.shift().count);
         }
 
-        if (maxHeap.length > 0) {
+        if (maxHeap.length > 0) {la 
             const count = pop() - 1;
             if (count > 0) {
                 // A task used at time t is available again at t + n + 1.
